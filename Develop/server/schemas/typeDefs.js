@@ -1,4 +1,4 @@
-export const typeDefs = `
+const typeDefs = `
 
 type Book {
     _id: ID
@@ -25,3 +25,4 @@ type Query {
 }
 
 `
+module.exports = typeDefs
